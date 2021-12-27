@@ -1,0 +1,19 @@
+/*
+!.gitignore
+
+!wp-content/
+wp-content/*
+
+!wp-content/plugins/
+wp-content/plugins/*
+
+#path to the plugin to be included in git
+#!wp-content/plugins/akismet/
+
+!wp-content/themes/
+wp-content/themes/*
+
+#path to the plugin to be included in git
+#!wp-content/themes/twentytwenty/
+
+
