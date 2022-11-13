@@ -2,7 +2,7 @@ version: '3'
 
 services:
   wp:
-    image: wordpress:5.7.1-php7.4-fpm-alpine # https://hub.docker.com/_/wordpress/
+    image: wordpress:php8.1-fpm-alpine # https://hub.docker.com/_/wordpress/
     volumes:
       - ./config/php/php.conf.ini:/usr/local/etc/php/conf.d/conf.ini
       - ./wp-app:/var/www/html # Full wordpress project
